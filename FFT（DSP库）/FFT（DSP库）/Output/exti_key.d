@@ -1,0 +1,15 @@
+..\output\exti_key.o: ..\User\KEY-EXIT\EXTI_KEY.c
+..\output\exti_key.o: ..\User\KEY-EXIT\EXTI_KEY.h
+..\output\exti_key.o: ..\Libraries\CMSIS\stm32f10x.h
+..\output\exti_key.o: ..\Libraries\CMSIS\core_cm3.h
+..\output\exti_key.o: F:\KEIL4\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\exti_key.o: ..\Libraries\CMSIS\system_stm32f10x.h
+..\output\exti_key.o: ..\User\stm32f10x_conf.h
+..\output\exti_key.o: ..\Libraries\FWlib\inc\stm32f10x_adc.h
+..\output\exti_key.o: ..\Libraries\CMSIS\stm32f10x.h
+..\output\exti_key.o: ..\Libraries\FWlib\inc\stm32f10x_dma.h
+..\output\exti_key.o: ..\Libraries\FWlib\inc\stm32f10x_exti.h
+..\output\exti_key.o: ..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\output\exti_key.o: ..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\output\exti_key.o: ..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\output\exti_key.o: ..\Libraries\FWlib\inc\misc.h

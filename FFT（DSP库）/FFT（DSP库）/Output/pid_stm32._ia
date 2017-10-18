@@ -1,0 +1,5 @@
+--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" 
+-I "F:\keil MDK\ARM\RV31\INC" 
+-I "F:\keil MDK\ARM\CMSIS\Include" 
+-I "F:\keil MDK\ARM\Inc\ST\STM32F10x" 
+--list "..\Listing\PID_stm32.lst" --xref -o "..\Output\PID_stm32.o" --depend "..\Output\PID_stm32.d" "..\User\DSP_FFT\PID_stm32.s"

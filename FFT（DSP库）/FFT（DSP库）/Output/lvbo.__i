@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\User -I..\Libraries\FWlib\inc -I..\User\led -I..\User\KEY -I..\User\KEY-EXIT -I..\User\USART1 -I..\User\ADC(DMA) -I..\User\ADC(DMA)-multichannel -I..\User\SysTick_delay -I..\User\TIM2 -I..\User\delay -I..\Libraries\FWlib\src -I..\User\ADC(DMA) -I..\User\SDS -I..\User\lvbo -I..\User\fft -I..\DSP_LIB\Include -I..\DSP_LIB -I..\User\DSP_FFT 
+-I "F:\keil MDK\ARM\RV31\INC" 
+-I "F:\keil MDK\ARM\CMSIS\Include" 
+-I "F:\keil MDK\ARM\Inc\ST\STM32F10x" 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\Output\lvbo.o" --omf_browse "..\Output\lvbo.crf" --depend "..\Output\lvbo.d" "..\User\lvbo\lvbo.c"

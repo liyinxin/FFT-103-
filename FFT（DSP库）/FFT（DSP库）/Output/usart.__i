@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\User -I..\Libraries\FWlib\inc -I..\User\led -I..\User\KEY -I..\User\KEY-EXIT -I..\User\USART1 -I..\User\ADC(DMA) -I..\User\ADC(DMA)-multichannel -I..\User\SysTick_delay -I..\User\TIM2 -I..\USMART -I..\USMART\delay -I..\USMART\usart 
+-I "F:\keil MDK\ARM\RV31\INC" 
+-I "F:\keil MDK\ARM\CMSIS\Include" 
+-I "F:\keil MDK\ARM\Inc\ST\STM32F10x" 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\Output\usart.o" --omf_browse "..\Output\usart.crf" --depend "..\Output\usart.d" "..\USMART\usart\usart.c"

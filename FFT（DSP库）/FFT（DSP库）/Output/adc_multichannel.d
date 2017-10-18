@@ -1,0 +1,15 @@
+..\output\adc_multichannel.o: ..\User\ADC(DMA)-multichannel\adc_multichannel.c
+..\output\adc_multichannel.o: ..\User\ADC(DMA)-multichannel\adc_multichannel.h
+..\output\adc_multichannel.o: ..\Libraries\CMSIS\stm32f10x.h
+..\output\adc_multichannel.o: ..\Libraries\CMSIS\core_cm3.h
+..\output\adc_multichannel.o: F:\KEIL4\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\adc_multichannel.o: ..\Libraries\CMSIS\system_stm32f10x.h
+..\output\adc_multichannel.o: ..\User\stm32f10x_conf.h
+..\output\adc_multichannel.o: ..\Libraries\FWlib\inc\stm32f10x_adc.h
+..\output\adc_multichannel.o: ..\Libraries\CMSIS\stm32f10x.h
+..\output\adc_multichannel.o: ..\Libraries\FWlib\inc\stm32f10x_dma.h
+..\output\adc_multichannel.o: ..\Libraries\FWlib\inc\stm32f10x_exti.h
+..\output\adc_multichannel.o: ..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\output\adc_multichannel.o: ..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\output\adc_multichannel.o: ..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\output\adc_multichannel.o: ..\Libraries\FWlib\inc\misc.h
